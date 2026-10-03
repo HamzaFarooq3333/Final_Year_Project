@@ -8,6 +8,10 @@ concurrency:
   group: merge-gate-${{ github.event.pull_request.number }}
   cancel-in-progress: true
 
+permissions:
+  contents: read
+  pull-requests: read
+
 jobs:
   merge-gate:
     runs-on: ubuntu-latest
@@ -52,6 +56,7 @@ jobs:
         uses: gitleaks/gitleaks-action@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITLEAKS_ENABLE_COMMENTS: "false"
 
       - name: Unit + contract + sys (not lab) + coverage
         run: >
