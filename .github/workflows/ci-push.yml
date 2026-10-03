@@ -8,6 +8,9 @@ concurrency:
   group: ci-push-${{ github.ref }}
   cancel-in-progress: true
 
+permissions:
+  contents: read
+
 jobs:
   push-gate:
     runs-on: ubuntu-latest
@@ -43,6 +46,7 @@ jobs:
         uses: gitleaks/gitleaks-action@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITLEAKS_ENABLE_COMMENTS: "false"
 
       - name: Unit tests + coverage
         run: >
