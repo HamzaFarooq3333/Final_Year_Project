@@ -25,7 +25,7 @@ bash scripts/check-env.sh --dev
 pytest -m "not lab"
 ```
 
-Windows: develop inside **WSL2 Ubuntu** (Docker/cgroups need Linux). Install Docker Desktop with WSL integration for the Docker check.
+Windows: develop inside **WSL2 Ubuntu** (Docker/cgroups need Linux). Install **Docker Engine + CLI inside Ubuntu** (not Docker Desktop). Verify with `docker run --rm hello-world`.
 
 ### Fasih (other laptop)
 
