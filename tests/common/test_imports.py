@@ -13,6 +13,7 @@ MODULES = [
     "cim.common.config",
     "cim.common.chain",
     "cim.common.schema",
+    "cim.common.schema.skills",
     "cim.common.store",
     "cim.mcp",
     "cim.skills",
