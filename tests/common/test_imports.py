@@ -14,6 +14,7 @@ MODULES = [
     "cim.common.chain",
     "cim.common.schema",
     "cim.common.schema.skills",
+    "cim.common.schema.mcp",
     "cim.common.schema.canonical",
     "cim.common.schema.envelope",
     "cim.common.store",
