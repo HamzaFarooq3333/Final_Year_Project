@@ -1,6 +1,6 @@
 # CIM setup status (Hamza machine)
 
-Last updated: 2026-10-04 (repo public; finishing T-01 remnants)
+Last updated: 2026-10-04 — T-01 remnants completed (public repo, branch protection, Ubuntu bootstrap)
 
 ## Done
 
@@ -31,10 +31,19 @@ Last updated: 2026-10-04 (repo public; finishing T-01 remnants)
 
 | Item | Status | What you should do |
 |------|--------|--------------------|
-| Ubuntu project bootstrap | PENDING | `bash /mnt/d/WSL/downloads/bootstrap-cim.sh` |
-| `check-env.sh --dev` | PENDING | After bootstrap |
-| Branch protection | BLOCKED | Needs GitHub Pro (private) or public repo |
-| Fasih | PENDING HIM | Accept invite; clone; bootstrap on his laptop |
+| Fasih local bootstrap | PENDING HIM | Clone; `wsl`/Linux + `scripts/bootstrap.sh` + Docker Engine |
+| Optional fail-gate drill | Optional | Deliberate bad PR title / lint fail to demo gates |
+
+## Completed this session
+
+| Item | Status |
+|------|--------|
+| Repo public | OK |
+| Branch protection on `main` | OK (merge-gate + 1 review + CODEOWNERS) |
+| PR #1 T-01 scaffold | MERGED |
+| SETUP_STATUS docs | MERGED (PR #3) |
+| Ubuntu bootstrap at `/home/hamza/cim` | OK |
+| `check-env.sh --dev` | OK |
 
 ### Paths on D:
 
