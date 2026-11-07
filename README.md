@@ -13,7 +13,7 @@ Plan document: [`docs/plan/Final_Year_Project_Latest.pdf`](docs/plan/Final_Year_
 | Hamza Farooq (MCP) | [@HamzaFarooq3333](https://github.com/HamzaFarooq3333) |
 | Fasih (Skills) | [@fasih-moin](https://github.com/fasih-moin) |
 
-Org / committee home: [ContinuousIntegrityMonitor/Final-Year-Project](https://github.com/ContinuousIntegrityMonitor/Final-Year-Project)  
+Org / committee home: [ContinuousIntegrityMonitor/Final_Year_Project](https://github.com/ContinuousIntegrityMonitor/Final_Year_Project)  
 Day-to-day + PR history: [HamzaFarooq3333/Final_Year_Project](https://github.com/HamzaFarooq3333/Final_Year_Project)
 
 Either member may push from their own laptop. Every push runs **ci-push**; every PR to `main` runs **merge-gate**. Push accepted work to **both** remotes (ADR-002).
@@ -23,7 +23,7 @@ Either member may push from their own laptop. Every push runs **ci-push**; every
 ```bash
 git clone https://github.com/HamzaFarooq3333/Final_Year_Project.git
 cd Final_Year_Project
-git remote add org https://github.com/ContinuousIntegrityMonitor/Final-Year-Project.git
+git remote add org https://github.com/ContinuousIntegrityMonitor/Final_Year_Project.git
 # Install uv: https://docs.astral.sh/uv/
 bash scripts/bootstrap.sh
 source .venv/bin/activate

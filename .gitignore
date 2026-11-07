@@ -50,3 +50,6 @@ vm-images/
 # Local scratch / one-off helper scripts (not part of product CI)
 _plan_extract.txt
 scripts/_*
+
+# Personal study notes — never push
+WHAT_TO_LEARN.md
