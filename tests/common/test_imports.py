@@ -24,7 +24,6 @@ MODULES = [
     "cim.mcp.framing",
     "cim.mcp.inventory",
     "cim.skills",
-
     "cim.correlation",
     "cim.scanners",
     "cim.scanners.mcp",

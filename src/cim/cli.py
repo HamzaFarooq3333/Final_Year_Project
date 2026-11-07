@@ -105,4 +105,3 @@ def verify_chain(
 
 if __name__ == "__main__":
     app()
-
