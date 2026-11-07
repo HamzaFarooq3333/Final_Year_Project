@@ -9,7 +9,7 @@ Paste into Claude: *You are assisting Fasih on CIM. Read `docs/FASIH_REVIEW.md`,
 | Remote | URL |
 |--------|-----|
 | `origin` (day-to-day + PRs) | https://github.com/HamzaFarooq3333/Final_Year_Project |
-| `org` (committee home) | https://github.com/ContinuousIntegrityMonitor/Final-Year-Project |
+| `org` (committee home) | https://github.com/ContinuousIntegrityMonitor/Final_Year_Project |
 
 After review comments, Hamza dual-pushes. Same CI workflows on both (`ci-push`, `merge-gate`).
 

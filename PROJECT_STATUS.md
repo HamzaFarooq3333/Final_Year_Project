@@ -10,7 +10,7 @@
 | Remote | URL | Role |
 |--------|-----|------|
 | `origin` | https://github.com/HamzaFarooq3333/Final_Year_Project | Day-to-day + PR history |
-| `org` | https://github.com/ContinuousIntegrityMonitor/Final-Year-Project | Committee / project home |
+| `org` | https://github.com/ContinuousIntegrityMonitor/Final_Year_Project | Committee / project home |
 
 ## Done on `main`
 
