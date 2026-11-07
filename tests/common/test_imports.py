@@ -20,7 +20,11 @@ MODULES = [
     "cim.common.store",
     "cim.common.store.baseline",
     "cim.mcp",
+    "cim.mcp.lab",
+    "cim.mcp.framing",
+    "cim.mcp.inventory",
     "cim.skills",
+
     "cim.correlation",
     "cim.scanners",
     "cim.scanners.mcp",

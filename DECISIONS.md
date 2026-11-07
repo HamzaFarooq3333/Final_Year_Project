@@ -15,3 +15,5 @@ Single index of architecture and process decisions. Detailed write-ups live unde
 - No Cursor / AI co-author trailers on commits.
 - Progress truth: `progress/tasks/T-XX.md`; history: `history/entries/`.
 - Agent skills for this workspace: copied under `.agents/skills/` (gitignored bodies); names listed in `docs/SKILLS_MANIFEST.txt`.
+- Joint review queue for Fasih / Claude: [`docs/FASIH_REVIEW.md`](docs/FASIH_REVIEW.md).
+- Do not merge T-06 (#163) until Fasih approves; Hamza may stack T-07/T-09 on the T-06 branch.
